@@ -30,6 +30,7 @@ def find_a(find)
 end
 
 def sum_array(add)
+  add.inject {|n| n+n}
 end
 
 def add_s
