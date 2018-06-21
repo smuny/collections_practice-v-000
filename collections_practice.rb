@@ -36,7 +36,7 @@ end
 def add_s(hard)
   new_line = []
   hard.each_with_index.collect do |element, index|
-    new_line << "#{0,2,3}!"
+    new_line << "#{element}!"
 end
 new_line
 end
