@@ -36,8 +36,7 @@ end
 def add_s(hard)
   new_line = []
   hard.each_with_index.collect do |element, index|
-    if index == 1
-    return false
+    if index != 1
     new_line << "#{element}s #{index}"
     else
       true
