@@ -36,10 +36,11 @@ end
 def add_s(hard)
   new_line = []
   hard.each_with_index.collect do |element, index|
-    if index == 1
+    new_line << "#{element}s #{index}"
+        if index == 1
       return false
     else
-    new_line << "#{element}s #{index}"
+      true
 end
 new_line
 end
