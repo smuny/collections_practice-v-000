@@ -37,6 +37,9 @@ def add_s(hard)
   hard.each_with_index.collect do |element, index|
     if element != "feet" 
       element + "s"
+    elsif element == "feet"
+     element
+   else
     end
 end
 end
