@@ -43,4 +43,5 @@ def add_s(hard)
 end
 new_line
 end
+ok remember that we want to change the values in the array, so that feet doesn't change but the rest have an "s". In this case, when it gets to feet, it's going to return false, which isn't what we want.
 
