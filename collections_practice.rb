@@ -37,9 +37,9 @@ def add_s(hard)
   new_line = []
   hard.each_with_index.collect do |element, index|
     if element == "feet"
-    new_line << "#{element}s"
+      return false
     else
-      false
+    new_line << "#{element}s"
 end
 new_line
 end
