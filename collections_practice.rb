@@ -34,5 +34,5 @@ def sum_array(add)
 end
 
 def add_s(hard)
-  [1,2].each_with_index.collect{|element, index| }
+  hard.each_with_index.collect{|element, index| }
 end
