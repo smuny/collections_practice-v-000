@@ -26,6 +26,7 @@ def kesha_maker(complex)
 end
 
 def find_a(find)
+  find.start_with? "a"
 end
 
 def sum_array(add)
