@@ -20,7 +20,7 @@ end
 
 def kesha_maker(complex)
   complex.each do |dollar_sign|
-    dollar_sign.length[2] = "$"
+    dollar_sign[2] = "$"
   end
   complex
 end
