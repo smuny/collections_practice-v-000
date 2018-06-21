@@ -34,5 +34,10 @@ def sum_array(add)
 end
 
 def add_s(hard)
-  hard.each_with_index.collect{|element, index| }
+  new_line = []
+  hard.each_with_index.collect do |element, index|
+    new_line << "#{0,2,3}!"
 end
+new_line
+end
+
