@@ -33,6 +33,6 @@ def sum_array(add)
   add.inject {|sum, n| sum + n }
 end
 
-def add_s
+def add_s(hard)
   [1,2].each_with_index.collect{|element, index| }
 end
